@@ -13,6 +13,11 @@
 		091611BB25EE747C00577800 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 091611B925EE747C00577800 /* LaunchScreen.storyboard */; };
 		091611C625EE749900577800 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091611C525EE749900577800 /* LoginViewController.swift */; };
 		091611C925EE74A000577800 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 091611C825EE74A000577800 /* Main.storyboard */; };
+		09F6D40025F8E5B1007F5E7A /* GroupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F6D3FF25F8E5B1007F5E7A /* GroupTableViewController.swift */; };
+		09F6D40325F8E6EC007F5E7A /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F6D40225F8E6EC007F5E7A /* GroupTableViewCell.swift */; };
+		09F6D40625F8EA2B007F5E7A /* AllGroupsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F6D40525F8EA2B007F5E7A /* AllGroupsTableViewController.swift */; };
+		09F6D41A25F90503007F5E7A /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F6D41925F90503007F5E7A /* FriendsTableViewController.swift */; };
+		09F6D41D25F907DB007F5E7A /* FriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F6D41C25F907DB007F5E7A /* FriendsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		091611BC25EE747C00577800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		091611C525EE749900577800 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		091611C825EE74A000577800 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		09F6D3FF25F8E5B1007F5E7A /* GroupTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTableViewController.swift; sourceTree = "<group>"; };
+		09F6D40225F8E6EC007F5E7A /* GroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
+		09F6D40525F8EA2B007F5E7A /* AllGroupsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGroupsTableViewController.swift; sourceTree = "<group>"; };
+		09F6D41925F90503007F5E7A /* FriendsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewController.swift; sourceTree = "<group>"; };
+		09F6D41C25F907DB007F5E7A /* FriendsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 		091611AD25EE747B00577800 /* VK-Social */ = {
 			isa = PBXGroup;
 			children = (
+				09F6D42325F9F460007F5E7A /* Model */,
 				091611AE25EE747B00577800 /* AppDelegate.swift */,
 				091611B025EE747B00577800 /* SceneDelegate.swift */,
 				091611C525EE749900577800 /* LoginViewController.swift */,
@@ -65,6 +76,34 @@
 				091611BC25EE747C00577800 /* Info.plist */,
 			);
 			path = "VK-Social";
+			sourceTree = "<group>";
+		};
+		09F6D3FE25F8E508007F5E7A /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				09F6D3FF25F8E5B1007F5E7A /* GroupTableViewController.swift */,
+				09F6D40225F8E6EC007F5E7A /* GroupTableViewCell.swift */,
+				09F6D40525F8EA2B007F5E7A /* AllGroupsTableViewController.swift */,
+			);
+			path = Groups;
+			sourceTree = "<group>";
+		};
+		09F6D40825F8F274007F5E7A /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				09F6D41925F90503007F5E7A /* FriendsTableViewController.swift */,
+				09F6D41C25F907DB007F5E7A /* FriendsTableViewCell.swift */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		09F6D42325F9F460007F5E7A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				09F6D3FE25F8E508007F5E7A /* Groups */,
+				09F6D40825F8F274007F5E7A /* Friends */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +177,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				091611C625EE749900577800 /* LoginViewController.swift in Sources */,
+				09F6D40025F8E5B1007F5E7A /* GroupTableViewController.swift in Sources */,
 				091611AF25EE747B00577800 /* AppDelegate.swift in Sources */,
+				09F6D41D25F907DB007F5E7A /* FriendsTableViewCell.swift in Sources */,
 				091611B125EE747B00577800 /* SceneDelegate.swift in Sources */,
+				09F6D40325F8E6EC007F5E7A /* GroupTableViewCell.swift in Sources */,
+				09F6D41A25F90503007F5E7A /* FriendsTableViewController.swift in Sources */,
+				09F6D40625F8EA2B007F5E7A /* AllGroupsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
