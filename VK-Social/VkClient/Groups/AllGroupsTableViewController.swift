@@ -13,7 +13,7 @@ class AllGroupsTableViewController: UITableViewController {
     
     var allGroups = [Group(name: "Пикабу", screen_name: "pikabu", logo: #imageLiteral(resourceName: "rZi7F9_vu-8") ),
                      Group(name: "ТОПОР — Хранилище", screen_name: "toportg", logo: #imageLiteral(resourceName: "-LGOrMnatj4")),
-                     Group(name: "Подслушано Коломна", screen_name: "kolomna_tut", logo: #imageLiteral(resourceName: "i9FnKM0Gxt4")),]
+                     Group(name: "Подслушано Самара", screen_name: "samara_tut", logo: #imageLiteral(resourceName: "i9FnKM0Gxt4")),]
     var filtredAllGroups = [Group]()
     
     override func viewDidLoad() {

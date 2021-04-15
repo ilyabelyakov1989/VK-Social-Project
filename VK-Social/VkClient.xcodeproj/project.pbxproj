@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09235F602628495F004E957E /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09235F5F2628495F004E957E /* Session.swift */; };
 		1504D92D2583AD7C00B4EBEE /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1504D92C2583AD7C00B4EBEE /* FriendsTableViewController.swift */; };
 		1504D9312583ADA400B4EBEE /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1504D9302583ADA400B4EBEE /* FriendTableViewCell.swift */; };
 		1504D9342583AE9500B4EBEE /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1504D9332583AE9500B4EBEE /* Data.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09235F5F2628495F004E957E /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		1504D92C2583AD7C00B4EBEE /* FriendsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewController.swift; sourceTree = "<group>"; };
 		1504D9302583ADA400B4EBEE /* FriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
 		1504D9332583AE9500B4EBEE /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				153F21B82577F6FF0018A18D /* LoginFormController.swift */,
 				15B175FF258621F500042450 /* CellLogo.swift */,
 				15B176082586793D00042450 /* LikeControl.swift */,
+				09235F5F2628495F004E957E /* Session.swift */,
 				1533D93E2593A6BB008A44EB /* LoadingIndicator.swift */,
 				153F21A42577F3780018A18D /* SceneDelegate.swift */,
 				153F21AB2577F37B0018A18D /* Assets.xcassets */,
@@ -265,6 +268,7 @@
 				1504D92D2583AD7C00B4EBEE /* FriendsTableViewController.swift in Sources */,
 				153F21A52577F3780018A18D /* SceneDelegate.swift in Sources */,
 				15462829259D9AD9008F9411 /* CustomNavigationController.swift in Sources */,
+				09235F602628495F004E957E /* Session.swift in Sources */,
 				15B3E5BB258F670C001C025E /* NewsTableViewCell.swift in Sources */,
 				1504D9442583D17700B4EBEE /* GroupTableViewCell.swift in Sources */,
 				1504D94B25848BB800B4EBEE /* AllGroupsTableViewCell.swift in Sources */,
