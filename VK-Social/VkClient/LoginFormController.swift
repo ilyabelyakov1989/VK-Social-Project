@@ -2,7 +2,7 @@
 //  LoginFormController.swift
 //  VkClient
 //
-//  Created by Ilya Belyakov on 20.03.2021.
+//  Created by Ilya Belyakov on 12.03.2021.
 //
 
 import UIKit
@@ -12,6 +12,8 @@ class LoginFormController: UIViewController {
     @IBOutlet var loginInput: UITextField!
     @IBOutlet var passwordInput: UITextField!
     @IBOutlet var scrollView: UIScrollView!
+    
+    @IBOutlet var loadingIndicator: LoadingIndicator!
     
     @IBAction func unwind( _ seg: UIStoryboardSegue) {
         loginInput.text = "admin"
@@ -54,6 +56,8 @@ class LoginFormController: UIViewController {
         let hideKeyboardGesture = UITapGestureRecognizer(target: self, action: #selector(hideKeyboard))
         // Присваиваем его UIScrollVIew
         scrollView?.addGestureRecognizer(hideKeyboardGesture)
+        
+        loadingIndicator.startAnimation()
     }
     
     override func viewWillAppear(_ animated: Bool) {

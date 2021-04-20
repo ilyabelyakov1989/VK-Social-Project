@@ -2,14 +2,14 @@
 //  GroupTableViewCell.swift
 //  VkClient
 //
-//  Created by Ilya Belyakov on 20.03.2021.
+//  Created by Ilya Belyakov on 27.03.2021.
 //
 
 import UIKit
 
 class GroupTableViewCell: UITableViewCell {
 
-    @IBOutlet var groupImage: UIImageView!
+    @IBOutlet weak var groupLogo: CellLogo!
     @IBOutlet var groupName: UILabel!
     
     override func awakeFromNib() {
@@ -22,5 +22,7 @@ class GroupTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
+  
 
 }

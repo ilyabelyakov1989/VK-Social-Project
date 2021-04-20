@@ -2,7 +2,7 @@
 //  FriendTableViewCell.swift
 //  VkClient
 //
-//  Created by Ilya Belyakov on 20.03.2021.
+//  Created by Ilya Belyakov on 27.03.2021.
 //
 
 import UIKit
@@ -10,7 +10,7 @@ import UIKit
 class FriendTableViewCell: UITableViewCell {
 
     
-    @IBOutlet var friendAvatar: UserAvatar!
+    @IBOutlet var friendAvatar: CellLogo!
     @IBOutlet var friendName: UILabel!
     
     override func awakeFromNib() {
@@ -23,5 +23,7 @@ class FriendTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
+    
 
 }

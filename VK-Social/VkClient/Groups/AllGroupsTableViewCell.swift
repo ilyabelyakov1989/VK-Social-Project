@@ -2,14 +2,14 @@
 //  AllGroupsTableViewCell.swift
 //  VkClient
 //
-//  Created by Ilya Belyakov on 20.03.2021.
+//  Created by Ilya Belyakov on 27.03.2021.
 //
 
 import UIKit
 
 class AllGroupsTableViewCell: UITableViewCell {
 
-    @IBOutlet var groupImage: UIImageView!
+    @IBOutlet weak var groupImage: CellLogo!
     @IBOutlet var groupName: UILabel!
     
     override func awakeFromNib() {

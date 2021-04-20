@@ -2,7 +2,7 @@
 //  AllGroupsTableViewController.swift
 //  VkClient
 //
-//  Created by Ilya Belyakov on 20.03.2021.
+//  Created by Ilya Belyakov on 27.03.2021.
 //
 
 import UIKit
@@ -47,7 +47,8 @@ class AllGroupsTableViewController: UITableViewController {
         else { return UITableViewCell()}
         
         cell.groupName.text = filtredAllGroups[indexPath.row].name
-        cell.groupImage.image = filtredAllGroups[indexPath.row].logo!
+        //cell.groupImage.image = filtredAllGroups[indexPath.row].logo!
+        cell.groupImage.logoView.image =  filtredAllGroups[indexPath.row].logo ?? UIImage()
         
         return cell
     }
